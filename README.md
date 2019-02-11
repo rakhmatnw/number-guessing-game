@@ -5,7 +5,7 @@ Random number is generated and you have to guess it. In every wrong guesses, you
 
 You can play it [here](https://rakhmatnw.github.io/number-guessing-game/)
 
-## Built using:
+### Built using:
 * HTML
 * CSS
 * Vanilla JavaScript
