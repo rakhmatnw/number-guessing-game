@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Number Guessing Game</title>
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Rubik:400,700">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="main-section">
+        <div class="container">
+            <h1 class="game-title">
+                Number Guessing Game
+            </h1>   
+            <p class="game-explanation">
+                We have one number from <strong>1 - 100</strong>. 
+                You have to <strong>guess</strong> it in less than 10 tries.
+                In each of your wrong guess, we'll give you a hint, 
+                either your guess is <strong>too low</strong> or <strong>too high</strong>.
+                <br>
+                <strong>Good Luck 😊 </strong>
+            </p>
+            <div class="form-group">
+                <input type="number" class="input-num" placeholder="type your guess here..">
+                <button class="input-btn">Submit</button>
+            </div>
+            <div class="guess-history">
+                <span class="history-title">History :</span>
+                <span class="history-content"></span>
+                
+            </div>
+            <div class="alert">
+            </div>
+        </div>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
